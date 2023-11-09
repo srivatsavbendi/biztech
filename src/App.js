@@ -43,7 +43,8 @@ function App() {
     const concatenatedString = formDataValues.join(' ');
     console.log(concatenatedString);
 
-    const apiKey = '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'; // Replace with your OpenAI API key
+    const apiKey = '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';
+
     try {
       const response = await axios.post('https://api.openai.com/v1/completions', {
         model: 'text-davinci-003',
